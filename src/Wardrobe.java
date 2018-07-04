@@ -3,7 +3,9 @@ public class Wardrobe {
     String shape;
     boolean sliding;
 
-    Wardrobe(){
-
+    Wardrobe(String c, String sh, boolean s){
+        color = c;
+        shape = sh;
+        sliding = s;
     }
 }
